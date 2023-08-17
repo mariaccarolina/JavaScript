@@ -1,68 +1,46 @@
-console.log("Boa tarde T2"); //exibindo msg no console;
+// SWITCH
+// A condicional switch avalia uma expressão
+// combinando um valor de uma expressão com uma case;
 
-// Declarando variaveis var, let e const
-//variaveis são onde armazenamos os dados
+var comida = "Laranja";
 
-//criando nomes de variaveis:
-// não podemos usar numeros e caracteres exceto _ e $
-// nao usamos palavras com espaços
-// podemos usar o camelCase
-// Não fazer uso de palavras reservadas do JS
-// case sensitive  letras minusculas são # de maiusculas camelCase é # de camecase
+switch (comida) {
+  case "Laranja": //Compara o valor da expressao, caso seja true, retorna essa msg
+    console.log("Sua comida favorita é banana!");
+    break; //break é a palavra reservada que finaliza a execução do switch / Se não tiver o break, vai executar as linhas de codigo a baixo
+  case "Limão":
+    console.log("Sua comida favorita é Laranja!");
+    break;
+  default:
+    //se nenhum dos cases atenderem à expressão declarada no switch
+    console.log("Não sei sua comida!");
+}
+// Boas vindas
+let sexo = "feminino";
 
-//variaveis podem ser recriadas, significando que podemos
-// atribuir um novo valor, sem erro.
-//variavel + nome da variavel + = + valor;
-var cor = "Verde";
-var cor = "Rosa";
-cor = "Branco";
-console.log(cor);
+switch (sexo) {
+  case "masculino":
+    console.log("Seja bem-vindo!");
+    break;
+  case "feminino":
+    console.log("Seja bem-vinda!");
+    break;
+  default:
+    console.log("eita!");
+}
 
-// let é variavel preferida dos programadores e tbm
-// conseguimos reatruir valor
-let alunoDaT2 = "Daniel";
-alunoDaT2 = "João Edu";
-alunoDaT2 = "Ester";
-console.log(alunoDaT2);
+let nomes = "Carolina";
 
-//Constante não pode ser alterada;
-const menorIdade = true;
-console.log(typeof menorIdade);
-
-//typeof verifica e retorna o tipo de dado;
-
-//tipos de dados:
-
-//string sao dados textuais
-let redeSocial = "Minha rede social é @carolinademy ";
-console.log(redeSocial);
-
-//boolean retorna verdadeiro (true) falso (false)
-// const menorIdade = true;
-// console.log(typeof menorIdade);
-
-//null - nulo
-let type = null;
-console.log(type);
-
-// undefined - indefinido
-// não foi definido um valor para a variavel;
-let saldoBancario;
-console.log(saldoBancario);
-
-//NaN o dado não é um numero
-let teste = "cem" * 2;
-console.log(teste); //NaN
-
-// Number - numerico
-let nota1 = 10;
-let nota2 = 8;
-console.log(nota1 + nota2);
-//podemos usar operadores aritmetico: +, -,*, / %
-
-//TemplateString `${}` dentro de crase ``
-let facilitador1 = "Grazy";
-let facilitador2 = "Kleber";
-console.log(
-  `Meus facilitadores maravilhosos são ${facilitador1} e ${facilitador2}`
-);
+switch (nomes) {
+  case "Débora":
+    console.log("Olá Débora!");
+    break;
+  case "Deminho":   
+    console.log("Olá Deminho!");
+    break;
+  case "Dafne":
+    console.log("Olá Dafne!");
+    break;
+  default:
+    console.log("Seu nome não foi encontrado!");
+}
