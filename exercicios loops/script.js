@@ -40,7 +40,18 @@ for (let item = 0; item < cores.length; item++) {
   console.log(cores[item]);
 }// Retorna todos os itens de cores;
 
+let comodosDaCasa = [
+  "quarto",
+  "cozinha",
+  "sala",
+  "banheiro",
+  "lavanderia",
+  "area de lazer"
+];
 
+for (let i = 0; i < comodosDaCasa.length; i++) {
+  console.log(comodosDaCasa[i]);
+}
 //while = verifica primeiro e executa depois
 
 let i = 0;
