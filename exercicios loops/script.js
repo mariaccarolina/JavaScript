@@ -33,6 +33,14 @@ for(let i = 0; i < 10; i++){
   }
 }
 
+//Loop/array
+let cores = ["rosa", "azul", "branco", "verde", "roxo"];
+
+for (let item = 0; item < cores.length; item++) {
+  console.log(cores[item]);
+}// Retorna todos os itens de cores;
+
+
 //while = verifica primeiro e executa depois
 
 let i = 0;
