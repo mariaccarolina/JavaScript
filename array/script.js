@@ -12,9 +12,12 @@
 //Como criar um array?
 // [] colchetes
 // Cada item é separado por vírgula;
-// A posição do array inicia de 0;
+// Cada elemento no array possui uma posição numerada conhecida com index (indice)
+
+//Cada elemento no array inicia na posição 0;
 
 let nomes = ["Carol", "Demerson", "Dafne", "Débora"];
+nomes[1] = "Deminho" //Atualizando um array
 console.log(nomes); // Retorna a lista de nomes
 
 console.log(nomes[0]); // Retorna a primeira posição do array
