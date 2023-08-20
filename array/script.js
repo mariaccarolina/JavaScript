@@ -12,7 +12,7 @@
 //Como criar um array?
 // [] colchetes
 // Cada item é separado por vírgula;
-// A posição do array inicia de 0/
+// A posição do array inicia de 0;
 
 let nomes = ["Carol", "Demerson", "Dafne", "Débora"];
 console.log(nomes); // Retorna a lista de nomes
@@ -45,4 +45,4 @@ let comodosDaCasa = [
 
 for (let i = 0; i < comodosDaCasa.length; i++) {
   console.log(comodosDaCasa[i]);
-}
+} // Retorna a lista do meu array de comodos da casa;
