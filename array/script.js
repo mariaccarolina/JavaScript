@@ -15,13 +15,13 @@
 // Cada elemento no array possui uma posição numerada conhecida com index (indice)
 
 //Cada elemento no array inicia na posição 0;
-
+  
 let nomes = ["Carol", "Demerson", "Dafne", "Débora"];
 nomes[1] = "Deminho" //Atualizando um array
 console.log(nomes); // Retorna a lista de nomes
 
 console.log(nomes[0]); // Retorna a primeira posição do array
-
+console.log(nomes[0], nomes[2]) // retorna Carol Dafne
 console.log(nomes.length); // Retorna 4
 // a propriedade length retorna a quantidade de caracteres de uma
 // string ou o tamanho de um array
@@ -30,6 +30,14 @@ console.log(nomes.length); // Retorna 4
 console.log(nomes[1].length); //Retorna 8
 // No nome Demerson [1] tem 8 letras;
 
+//Podemos também atribuir valores dentro de um array vazio:
+let lista = [];
+lista = ["refrigerante", "miojo"]
+// lista[0] = "filé de fango";
+// lista[1] = "batata";
+// lista[2] = "arroz"
+
+console.log(lista)  
 //Loop/array
 let cores = ["rosa", "azul", "branco", "verde", "roxo"];
 
@@ -49,3 +57,4 @@ let comodosDaCasa = [
 for (let i = 0; i < comodosDaCasa.length; i++) {
   console.log(comodosDaCasa[i]);
 } // Retorna a lista do meu array de comodos da casa;
+
