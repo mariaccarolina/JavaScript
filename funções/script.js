@@ -43,13 +43,3 @@ function adicao(a , b) {
 console.log(adicao(5,5)) //10
 console.log(adicao(20,100)) // 120
 
-function someValores(...valores) {
-  let tamanho = valores.length;
-  let total  = 0;
-  for(let i = 0; i < tamanho; i++) {
-    total += valores[i]
-  }
-  return total
-}
-
-console.log(someValores(10, 10,10))
