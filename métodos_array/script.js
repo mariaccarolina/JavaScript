@@ -34,6 +34,7 @@ console.log(compras)
 // const estudantes = ['Marcio', 'Brenda', 'Joana', 'Kleber', 'Julia'];
 // console.log(estudantes.sort()) //Ordenou em ordem alfabética;
 
+//
 
 //como saber qual posição(index) de um item no array?
 //usando o indexOf()
