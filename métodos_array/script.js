@@ -29,6 +29,7 @@ console.log(lista.join("-"));
 console.log(lista.join("_"));
  // Retorna 1_2_3_4_5_6
 
+ console.log(lista.join(" * "))
 let centenas = [
     31,
     7,
