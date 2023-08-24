@@ -33,12 +33,23 @@ function soma(){
 
 // A variavel está recebendo o valor da função soma;
 let totalSoma = soma(); 
-console.log(totalSoma)
+console.log(totalSoma) // 4
 
 // função de adição que vai receber parametros
 function adicao(a , b) {
   return a + b;
 }
 
-console.log(adicao(5,5))
-console.log(adicao(20,100))
+console.log(adicao(5,5)) //10
+console.log(adicao(20,100)) // 120
+
+function someValores(...valores) {
+  let tamanho = valores.length;
+  let total  = 0;
+  for(let i = 0; i < tamanho; i++) {
+    total += valores[i]
+  }
+  return total
+}
+
+console.log(someValores(10, 10,10))
