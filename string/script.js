@@ -13,3 +13,7 @@ console.log(frase.replace("feliz", "maravilhosa!"))
 
 //length
 console.log(palavra.length)
+//conta cada elemento da string
+
+//localeCompare()
+// ordena sem distinção entre maiusculas e minusculas em array
