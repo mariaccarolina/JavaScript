@@ -38,3 +38,38 @@ let cadastros = [
 ];
 
 console.log(`${cadastros[2].nome} gosta de ${cadastros[2].musica_fav[1]}`);
+
+cadastros.push({
+  nome: "joao",
+  idade: 20,
+  musica_fav: ["rock", "samba", "musicas antigas"]
+});
+console.log(cadastros[2]);
+
+cadastros[2].musica_fav.pop();
+console.log(cadastros[2].musica_fav);
+
+cadastros[3].musica_fav.splice(2, 1);
+
+console.log(cadastros[3]);
+
+// let teste = [
+//   function testando() {
+//     console.log("funcionou miserá");
+//   },
+//   "oi",
+//   "valeu",
+//   "foi"
+// ];
+
+// teste[0]();
+
+let teste = {
+  funcao: function oi() {
+    console.log("eai");
+  }
+};
+
+teste.funcao();
+
+console.log("teste");
