@@ -51,3 +51,6 @@ const empresasMaisNovas = empresas.filter(empresas => {
   return empresas.anoDeCriacao > 2000;
 })
 console.log(empresasMaisNovas)
+// Retornou:
+//  { nome: 'Facebook',valorDeMercado: 383, CEO:'Mark Zuckerberg', anoDeCriacao: 2004},
+// { nome: 'Spotify',valorDeMercado: 30, CEO:'Daniel Ek', anoDeCriacao: 2006  },
